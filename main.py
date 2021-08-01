@@ -131,9 +131,9 @@ try:
     WEB_QUERY_DELAY = 3600  # sync time delay in s, default is 3600
     RETRY_DELAY = 5  # sync time retry delay in s
 
-    SLEEP_AT_NIGHT = False  # turn on or off sleep function
-    NIGHT_START = 23  # night start hour
-    SLEEP_DURATION = 9  # hours of sleep at night
+    SLEEP_AT_NIGHT = True  # turn on or off sleep function
+    NIGHT_START = 21  # night start hour
+    SLEEP_DURATION = 8  # hours of sleep at night
     REFRESH_DELAY = 100  # display refresh delay in ms
 
     BRIGHTNESS = 1  # screen brightness between 0 and 10
