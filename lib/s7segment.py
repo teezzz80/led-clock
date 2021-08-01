@@ -18,9 +18,10 @@ class S7Segment:
 
 
     def get_raw_color(self, color, brightness):
+        percentage = brightness / 10
         raw_color = [0, 0, 0]
         for i in range(3):
-            raw_color[i] = int(color[i] * brightness)
+            raw_color[i] = int(color[i] * percentage)
         return tuple(raw_color)
 
 
